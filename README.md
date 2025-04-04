@@ -66,13 +66,6 @@ dashboard.py
 
 ---
 
-## 📸 **Preview**  
-
-![Dashboard Preview](https://via.placeholder.com/800x400/0E1117/FFFFFF?text=Dashboard+Interativo+com+Gráficos+Animados)  
-*(Gráficos de linha com cores temáticas e métricas em destaque)*  
-
----
-
 ## 🧠 **Como Personalizar**  
 
 1. **Conectar a um sensor físico** (ex: DHT22):  
