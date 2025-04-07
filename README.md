@@ -66,26 +66,5 @@ dashboard.py
 
 ---
 
-## 🧠 **Como Personalizar**  
-
-1. **Conectar a um sensor físico** (ex: DHT22):  
-   ```python
-   # Substitua a função ler_sensor() por:
-   import Adafruit_DHT
-   def ler_sensor():
-       umid, temp = Adafruit_DHT.read_retry(Adafruit_DHT.DHT22, pino_sensor)
-       return temp, umid
-   ```
-
-2. **Salvar dados em CSV**:  
-   ```python
-   st.session_state.dados.to_csv("historico_sensor.csv", index=False)
-   ```
-
-3. **Adicionar mais sensores**:  
-   - Basta expandir o DataFrame com novas colunas (ex: `'CO2'`).  
-
----
-
 ## 📜 **Licença**  
 MIT License - Livre para uso e modificação.  
